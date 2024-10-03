@@ -9,10 +9,6 @@ This project involves predicting house prices in Bengaluru using machine learnin
 - [Dataset](#dataset)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Model Building](#model-building)
-- [Installation Instructions](#installation-instructions)
-- [Usage](#usage)
-- [Contributions](#contributions)
-- [License](#license)
 
 ## Project Description
 During my internship at Feyn Labs, I worked on a project aimed at predicting house prices in Bengaluru. The project involved data cleaning, exploratory data analysis (EDA), feature engineering, and model building. I utilized various regression algorithms to develop a predictive model that could estimate house prices based on input features.
@@ -28,11 +24,15 @@ During my internship at Feyn Labs, I worked on a project aimed at predicting hou
 
 ## Dataset
 The dataset used for this project is the **Bengaluru House Data**, available on Kaggle. The dataset contains information on various properties in Bengaluru, including:
-- Size of the house
+- Area_type
+- Availability
 - Location
+- Size
+- Society
+- Total_sqft
+- Bath
+- Balcony
 - Price
-- Number of bedrooms (BHK)
-- Number of bathrooms
 
 ## Exploratory Data Analysis (EDA)
 The EDA phase involved analyzing the dataset to understand the distribution of variables, identifying missing values, and visualizing relationships between features. Key insights from the analysis include:
@@ -51,10 +51,4 @@ Multiple regression algorithms were employed to build the predictive model, incl
 
 The model's performance was evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
 
-## Installation Instructions
-To run this project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bengaluru-house-price-prediction.git
-   cd bengaluru-house-price-prediction
